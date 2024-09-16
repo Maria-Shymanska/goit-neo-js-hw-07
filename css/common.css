@@ -127,10 +127,10 @@ button:focus {
 
 #controls,
 #boxes {
-  padding: 32px;
+  padding: 35px;
   border-radius: 8px;
-  margin: 24px;
-  background-color: var(--bg-color);
+  margin: 30px;
+  background-color: #fafafa;
 }
 
 #boxes {
@@ -138,4 +138,14 @@ button:focus {
   gap: 32px;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+input[type='number'] {
+  width: 170px;
+  text-align: center;
+}
+
+button[data-destroy],
+button[data-create] {
+  padding: 8px 32px;
 }

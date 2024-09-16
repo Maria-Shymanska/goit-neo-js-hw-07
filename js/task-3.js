@@ -6,3 +6,5 @@ const onInputChange = (e) => {
 };
 
 input.addEventListener("input", onInputChange);
+
+
