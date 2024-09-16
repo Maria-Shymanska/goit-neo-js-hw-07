@@ -33,7 +33,6 @@ function destroyBoxes() {
   boxesContainer.innerHTML = ""; // Очищаємо контейнер
 }
 
-// Обробник події для кнопки Create
 createBtn.addEventListener("click", () => {
   const amount = parseInt(input.value); 
   if (amount >= 1 && amount <= 100) {
@@ -41,7 +40,7 @@ createBtn.addEventListener("click", () => {
   } else {
     alert("Please enter a number between 1 and 100.");
   }
-  input.value = ""; // Очищуємо поле після створення
+  input.value = ""; 
 });
 
 // Обробник події для кнопки Destroy
